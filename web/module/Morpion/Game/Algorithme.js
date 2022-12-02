@@ -3,7 +3,7 @@ export class Algorithme {
         this.board = board;
     };
 
-    get findRightMove() {
+    findRightMove() {
         for(let i = 0; i <= 2; i++) {
             const algoDataFor = [
             [[i, 0], [i, 1], [i, 2]], 
